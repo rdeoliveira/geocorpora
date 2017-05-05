@@ -26,7 +26,7 @@ The sheet also contains a _stats_ tab, showing basic statistics of frame of refe
 
 This data set is mentioned in:
 
-    Rodrigo de Oliveira, Somayajulu Sripada and Ehud Reiter (2015). _Designing an Algorithm for Generating Named Spatial References_. ENLG 2015, 127. [[pdf]](http://anthology.aclweb.org/W/W15/W15-47.pdf#page=139)
+- Rodrigo de Oliveira, Somayajulu Sripada and Ehud Reiter (2015). _Designing an Algorithm for Generating Named Spatial References_. ENLG 2015, 127. [[pdf]](http://anthology.aclweb.org/W/W15/W15-47.pdf#page=139)
 
 ## Data-and-text only
 Data: [[zip] (coming soon!)]().
