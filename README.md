@@ -1,12 +1,10 @@
 ## Overview
 This website contains 2 corpora of geographic referring expressions such as _the south-east coast of Aberdeenshire_:
 
-* A **text-only** corpus: Semantically annotated expressions of various languages, domains and audiences.
-* A **data-and-text** corpus: Semantically annotated expressions of the meteorological domain, aligned with the the GIS data representations of what the expressions refer to.
+* A [text-only](https://github.com/rdeoliveira/metdata/raw/7173b85b4c1c59eb3c63e67554d3454e595bf97d/text-only.xlsx) corpus: Semantically annotated expressions of various languages, domains and audiences.
+* A [data-and-text]() corpus: Semantically annotated expressions of the meteorological domain, aligned with the the GIS data representations of what the expressions refer to.
 
-## Text only corpus
-Data: [[xlsx]](https://github.com/rdeoliveira/metdata/raw/7173b85b4c1c59eb3c63e67554d3454e595bf97d/text-only.xlsx).
-
+## Text only corpus [[xlsx]](https://github.com/rdeoliveira/metdata/raw/7173b85b4c1c59eb3c63e67554d3454e595bf97d/text-only.xlsx)
 This data set is an Excel spreadsheet. It contains 671 referring expressions such as:
 ```
 all North Negro tributaries
@@ -26,5 +24,4 @@ This data set is mentioned in:
 
 - Rodrigo de Oliveira, Somayajulu Sripada and Ehud Reiter (2015). _Designing an Algorithm for Generating Named Spatial References_. ENLG 2015, 127. [[pdf]](http://anthology.aclweb.org/W/W15/W15-47.pdf#page=139)
 
-## Data-and-text corpus
-Data: [[zip] (coming soon!)]().
+## Data-and-text corpus [[zip] (coming soon!)]()
