@@ -8,11 +8,9 @@ This website contains 2 corpora of geographic referring expressions such as _the
 Data: [[xlsx]](https://github.com/rdeoliveira/metdata/raw/7173b85b4c1c59eb3c63e67554d3454e595bf97d/text-only.xlsx).
 
 This data set is an Excel spreadsheet. It contains 671 referring expressions such as:
-
 ```
 all North Negro tributaries
 ```
-
 Each row contains one corpus instance (one expression) and the following annotation tags:
 
 * **Domain**: The domain or topic of the document from which the expression originated. It can be _river_, _route_ or _weather_.
