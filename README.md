@@ -1,8 +1,8 @@
 ## Overview
 This website contains 2 corpora of geographic referring expressions such as _the south-east coast of Aberdeenshire_:
 
-* A **text-only** corpus: Semantically annotated expressions of various languages, domains and audiences. [[xlsx]](https://github.com/rdeoliveira/metdata/raw/7173b85b4c1c59eb3c63e67554d3454e595bf97d/text-only.xlsx)
-* A **data-and-text** corpus: Semantically annotated expressions of the meteorological domain, aligned with the the GIS data representations of what the expressions refer to. [[zip]](https://github.com/rdeoliveira/geocorpora/raw/master/data-and-text.zip)
+* A **text-only** corpus [[xlsx]](https://github.com/rdeoliveira/metdata/raw/7173b85b4c1c59eb3c63e67554d3454e595bf97d/text-only.xlsx): Semantically annotated expressions of various languages, domains and audiences.
+* A **data-and-text** corpus [[zip]](https://github.com/rdeoliveira/geocorpora/raw/master/data-and-text.zip): Semantically annotated expressions of the meteorological domain, aligned with the the GIS data representations of what the expressions refer to.
 
 ## Text only corpus
 This data set is an Excel spreadsheet. It contains 671 referring expressions such as:
