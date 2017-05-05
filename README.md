@@ -43,7 +43,7 @@ features
 full-text
 ```
 Where:
-- A _feature_ is a subregion of a the region.
+- A _feature_ is a subregion of the region.
 - Each feature has a _geometry_, which is essentially an array of lon-lat (not lat-lon!) coordinates.
 - Each feature that represents a subregion for which an expression exists in the text has: 
   - A specific number (_marker-symbol_).
