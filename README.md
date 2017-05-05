@@ -10,7 +10,6 @@ This data set is an Excel spreadsheet. It contains 671 referring expressions suc
 all North Negro tributaries
 ```
 Each row contains one corpus instance (one expression) and the following annotation tags:
-
 * **Domain**: The domain or topic of the document from which the expression originated. It can be _river_, _route_ or _weather_.
 * **Audience**: The target audience of the document from which the expression originated. It can be _canoeing_, _driving_, _fishing_ or _general_.
 * **Language**: The lanaauge of the document from which the expression originated. It can be _English_, _Portuguese_ or _Spanish_.
@@ -20,8 +19,42 @@ Each row contains one corpus instance (one expression) and the following annotat
 
 The sheet also contains a _stats_ tab, showing basic statistics of frame of reference use within the corpus.
 
-This data set is mentioned in:
-
+Read this article for a contextualised explanation of the data:
 - Rodrigo de Oliveira, Somayajulu Sripada and Ehud Reiter (2015). _Designing an Algorithm for Generating Named Spatial References_. ENLG 2015, 127. [[pdf]](http://anthology.aclweb.org/W/W15/W15-47.pdf#page=139)
 
 ## Data-and-text corpus
+This data set contains several files:
+* GeoJSON: Each file represents a binary weather forecast scenario -- places are either dry or experiencing precipitation -- and it contains 1 or more geographic expressions. Each expression is semanticaly annotated with frames of reference and align to specific regions of the represented geography (the central region of Scotland).
+* PDF: Essentially the same data as above, but for human reading.
+
+You can view the GeoJSON files in any [LeafLet](http://leafletjs.com) based web map such as http://geojson.io/. Simply paste the contents of a file onto the designated area and the data should be plotted automatically.
+
+The GeoJSON files use the standard GeoJSON format (as described [here](http://geojson.org/geojson-spec.html)) and have the following structure:
+```json
+features
+  feature
+    geometry
+      coordinates
+    properties
+      marker-symbol
+      expression
+      marker-color
+      labels
+full-text
+```
+Where:
+- A _feature_ is a subregion of a the region.
+- Each feature has a _geometry_, which is essentially an array of lon-lat (not lat-lon!) corrdinates.
+- Each feature that represents a subregion for which an expression exists in the text has: 
+  - A specific number (_marker-symbol_).
+  - A specific colour (_marker-color_).
+  - An expression in English (_expression_).
+  - A set of semantic tags (_labels_).
+- _full-text_ is the original text where the expression originates from.
+
+_features_ always contains an array of coordinates representing the subregion that is not referred to in the text: _distractors_.
+  
+You can view the GeoJSON files in any [LeafLet](http://leafletjs.com) based web map such as http://geojson.io/. Simply paste the contents of a file onto the designated area and the data should be plotted automatically.
+
+Read this article for a contextualised explanation of the data:
+- Rodrigo de Oliveira Somayajulu Sripada and Ehud Reiter (2016). Absolute and Relative Properties in Geographic Referring Expressions. The 9th International Natural Language Generation conference. 2016. [[pdf]](http://www.aclweb.org/anthology/W/W16/W16-66.pdf#page=272)
