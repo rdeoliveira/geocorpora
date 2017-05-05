@@ -12,7 +12,7 @@ all North Negro tributaries
 Each row contains one corpus instance (one expression) and the following annotation tags:
 * **Domain**: The domain or topic of the document from which the expression originated. It can be _river_, _route_ or _weather_.
 * **Audience**: The target audience of the document from which the expression originated. It can be _canoeing_, _driving_, _fishing_ or _general_.
-* **Language**: The lanaauge of the document from which the expression originated. It can be _English_, _Portuguese_ or _Spanish_.
+* **Language**: The language of the document from which the expression originated. It can be _English_, _Portuguese_ or _Spanish_.
 * **Country**: The country where the document was published. It can be _Brazil_, _Canada_, _Canada & USA_, _Colombia_, _UK_ or _USA_.
 * **Frames of Reference**: The many semantic concepts that the expression utilizes. For example, if _north_ is in the expression, the frame of reference _Direction (DIR)_ is annotated for this expression. The full names of the frame abbreviations are given in the _legend_ tab.
 * **Frame count**: The number of different semantic frames used in the expression.
@@ -24,7 +24,7 @@ Read this article for a contextualised explanation of the data:
 
 ## Data-and-text corpus
 This data set contains several files:
-* GeoJSON: Each file represents a binary weather forecast scenario -- places are either dry or experiencing precipitation -- and it contains 1 or more geographic expressions. Each expression is semanticaly annotated with frames of reference and align to specific regions of the represented geography (the central region of Scotland).
+* GeoJSON: Each file represents a binary weather forecast scenario -- places are either dry or experiencing precipitation -- and it contains 1 or more geographic expressions. Each expression is semantically annotated with frames of reference and align to specific regions of the represented geography (the central region of Scotland).
 * PDF: Essentially the same data as above, but for human reading.
 
 You can view the GeoJSON files in any [LeafLet](http://leafletjs.com) based web map such as http://geojson.io/. Simply paste the contents of a file onto the designated area and the data should be plotted automatically.
@@ -44,7 +44,7 @@ full-text
 ```
 Where:
 - A _feature_ is a subregion of a the region.
-- Each feature has a _geometry_, which is essentially an array of lon-lat (not lat-lon!) corrdinates.
+- Each feature has a _geometry_, which is essentially an array of lon-lat (not lat-lon!) coordinates.
 - Each feature that represents a subregion for which an expression exists in the text has: 
   - A specific number (_marker-symbol_).
   - A specific colour (_marker-color_).
