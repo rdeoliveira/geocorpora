@@ -30,7 +30,7 @@ This data set contains several files:
 You can view the GeoJSON files in any [LeafLet](http://leafletjs.com) based web map such as http://geojson.io/. Simply paste the contents of a file onto the designated area and the data should be plotted automatically.
 
 The GeoJSON files use the standard GeoJSON format (as described [here](http://geojson.org/geojson-spec.html)) and have the following structure:
-```json
+```
 features
   feature
     geometry
