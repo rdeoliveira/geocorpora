@@ -16,7 +16,7 @@ Each row contains one corpus instance (one expression) and the following annotat
 * **Domain**: The domain or topic of the document from which the expression originated. It can be _river_, _route_ or _weather_.
 * **Audience**: The target audience of the document from which the expression originated. It can be _canoeing_, _driving_, _fishing_ or _general_.
 * **Language**: The lanaauge of the document from which the expression originated. It can be _English_, _Portuguese_ or _Spanish_.
-* **Country**: The country where the document was published. It can be _Brazil_, _Canda_, _Canada & USA_, _Colombia_, _UK_ or _USA_.
+* **Country**: The country where the document was published. It can be _Brazil_, _Canada_, _Canada & USA_, _Colombia_, _UK_ or _USA_.
 * **Frames of Reference**: The many semantic concepts that the expression utilizes. For example, if _north_ is in the expression, the frame of reference _Direction (DIR)_ is annotated for this expression. The full names of the frame abbreviations are given in the _legend_ tab.
 * **Frame count**: The number of different semantic frames used in the expression.
 
