@@ -59,4 +59,4 @@ You can view the GeoJSON files in any [LeafLet](http://leafletjs.com) based web 
 Read this article for a contextualised explanation of the data:
 - Rodrigo de Oliveira, Somayajulu Sripada and Ehud Reiter (2016). _Absolute and Relative Properties in Geographic Referring Expressions_. The 9th International Natural Language Generation conference. 2016. [[pdf]](http://www.aclweb.org/anthology/W/W16/W16-66.pdf#page=272)
 
-Please contact <mailto:rodrigodeoliveira@abdn.ac.uk> should you ahve any questions.
+Please contact <rodrigodeoliveira@abdn.ac.uk> should you ahve any questions.
