@@ -23,9 +23,9 @@ Read this article for a contextualised explanation of the data:
 - Rodrigo de Oliveira, Somayajulu Sripada and Ehud Reiter (2015). _Designing an Algorithm for Generating Named Spatial References_. ENLG 2015, 127. [[pdf]](http://anthology.aclweb.org/W/W15/W15-47.pdf#page=139)
 
 ## Data-and-text corpus
-This data set contains several files:
-* GeoJSON: Each file represents a binary weather forecast scenario -- places are either dry or experiencing precipitation -- and it contains 1 or more geographic expressions. Each expression is semantically annotated with frames of reference and align to specific regions of the represented geography (the central region of Scotland).
-* PDF: Essentially the same data as above, but for human reading.
+This data set contains several files in 2 formats:
+* **GeoJSON**: Each file represents a binary weather forecast scenario -- places are either dry or experiencing precipitation -- and it contains 1 or more geographic expressions. Each expression is semantically annotated with frames of reference and align to specific regions of the represented geography (the central region of Scotland).
+* **PDF**: Essentially the same data as above, but for human reading.
 
 You can view the GeoJSON files in any [LeafLet](http://leafletjs.com) based web map such as http://geojson.io/. Simply paste the contents of a file onto the designated area and the data should be plotted automatically.
 
@@ -58,3 +58,5 @@ You can view the GeoJSON files in any [LeafLet](http://leafletjs.com) based web 
 
 Read this article for a contextualised explanation of the data:
 - Rodrigo de Oliveira, Somayajulu Sripada and Ehud Reiter (2016). _Absolute and Relative Properties in Geographic Referring Expressions_. The 9th International Natural Language Generation conference. 2016. [[pdf]](http://www.aclweb.org/anthology/W/W16/W16-66.pdf#page=272)
+
+Please contact <mailto:rodrigodeoliveira@abdn.ac.uk> should you ahve any questions.
