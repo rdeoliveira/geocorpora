@@ -54,7 +54,7 @@ Where:
 
 _features_ always contains an array of coordinates representing the subregion that is not referred to in the text: _distractors_.
   
-You can view the GeoJSON files in any [LeafLet](http://leafletjs.com) based web map such as http://geojson.io/. Simply paste the contents of a file onto the designated area and the data should be plotted automatically.
+You can view the GeoJSON files in any [LeafLet](http://leafletjs.com) based web map such as <http://geojson.io/>. Simply paste the contents of a file onto the designated area and the data should be plotted automatically.
 
 Read this article for a contextualised explanation of the data:
 - Rodrigo de Oliveira, Somayajulu Sripada and Ehud Reiter (2016). _Absolute and Relative Properties in Geographic Referring Expressions_. The 9th International Natural Language Generation conference. 2016. [[pdf]](http://www.aclweb.org/anthology/W/W16/W16-66.pdf#page=272)
